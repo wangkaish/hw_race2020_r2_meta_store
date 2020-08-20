@@ -1,0 +1,8 @@
+-server
+-Xms3072m
+-Xmx3072m
+-XX:NewRatio=1
+-XX:+UseConcMarkSweepGC
+-XX:+UseParNewGC
+-XX:-UseBiasedLocking
+-XX:CompileThreshold=1000
